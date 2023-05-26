@@ -1,0 +1,47 @@
+.table-stages, .table-stages table, .table-stages tbody tr td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+}
+
+.table-stages {
+    margin-bottom: 2vh;
+}
+
+.table-stages tbody tr td {
+    height: 60px;
+    width: 100vw;
+}
+.table-stages tbody tr:nth-child(odd) {
+    background-color: #FFF2CC;
+}
+
+.table-stages a {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #FFF;
+    text-decoration: none;
+    color: #000;
+}
+.table-stages a:active {
+    background-color: #D9D9D9;
+    color: #3e3e3e;
+}
+
+.table-stages td[premiere_demande] {
+    background-color: #8ec4d0;
+}
+
+.table-stages td[plusieurs_demandes] {
+    background-color: #DBA644;
+}
+
+.coul-rouge {
+    background-color: #FF5050;
+    font-weight: 600;
+}
+.coul-vert {
+    background-color: #A9D08E;
+}
